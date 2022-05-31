@@ -1,6 +1,0 @@
-rootProject.name = 'ReactNativeIosFeedbackGeneratorExample'
-apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
-include ':app'
-
-include ':m2modulesreactnativeiosfeedbackgenerator'
-project(':m2modulesreactnativeiosfeedbackgenerator').projectDir = new File(rootProject.projectDir, '../../android')
