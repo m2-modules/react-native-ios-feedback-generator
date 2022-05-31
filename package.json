@@ -1,6 +1,5 @@
 {
   "name": "@m2-modules/react-native-ios-feedback-generator",
-  "version": "0.1.0",
   "description": "React native feedback generator module for iOS",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
