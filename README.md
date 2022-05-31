@@ -11,11 +11,14 @@ npm install @m2-modules/react-native-ios-feedback-generator
 ## Usage
 
 ```js
-import { multiply } from "@m2-modules/react-native-ios-feedback-generator";
+import {
+  impactFeedback,
+  ImpactFeedbackStyle,
+} from '@m2-modules/react-native-ios-feedback-generator';
 
 // ...
 
-const result = await multiply(3, 7);
+impactFeedback(ImpactFeedbackStyle.Heavy);
 ```
 
 ## Contributing
